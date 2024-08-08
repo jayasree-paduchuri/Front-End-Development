@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Student Registration form</legend>
+            <h3>Personal Details</h3>
+        First Name:<input type="text" placeholder="first name"><br><br>
+        Last Name:<input type="text" placeholder="last name"><br><br>
+        E-mail:<input type="email"><br><br>
+        Date of Birth:<input type="date"><br><br>
+        Gender:<input type="radio" name="Gender" value="male">male
+               <input type="radio" name="Gender" value="female">female<br><br>
+        Phone Number:<input type="number"><br><br>
+        Father Name:<input type="text"><br><br>
+        Father Phone Number:<input type="number"><br><br>
+        Mother Name:<input type="text"><br><br>
+        Nationality:<input type="text"><br><br>
+        Address: <textarea rows="3" cols="25"></textarea><br><br>
+        Pincode: <input type="number"><br><br>
+        <h3>Educational Details</h3>
+        Enter your 10th marks:<input type="number"><br><br>
+        Enter your Intermediate marks:<input type="number"><br><br>
+        <label for ="course">Choose a course:</label><br><br>
+        <select id="course" name="course" aria-placeholder="course">
+            <option value="CSE-DATA SCIENCE">CSE-DATA SCIENCE</option>
+            <option value="CSE-ARTIFICAL INTELLIGENCE">CSE-ARTIFICAL INTELLIGENCE</option>
+            <option value="CSE-MACHINE LEARNING">CSE-MACHINE LEARNING</option>
+            <option value="CSE-CYBER SECURITY">CSE-CYBER SECURITY</option>
+        </select><br><br>
+        <input type="button" value="submit">
+        </fieldset>
+    </form>   
+</body>
+</html>
